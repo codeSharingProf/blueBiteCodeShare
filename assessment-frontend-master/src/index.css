@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.weatherComponent{
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    padding-top: 0.3rem;
+    width: 300px;
+    height: 180px;
+
+}
+.weatherComponent img{
+    width: 55px;
+    height: 55px;
+}
+.weatherComponent >  div{
+    align-items: center;
+    display: flex;
+}
+.imageComp{
+    display: block;
+}
+.location{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.weatherUpc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.upcomingDiv{
+    position: absolute;
+    right: 0;
+}
+
+.btn{
+    display: block;
+}
